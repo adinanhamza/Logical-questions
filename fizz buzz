@@ -16,4 +16,6 @@ for(int i =1;i<=fb;i++){
   }else if(i % 5 == 0){
     print('buzz');
 
-} 
+} else{
+print(i);
+}
