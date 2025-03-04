@@ -1,3 +1,5 @@
+void main(List<String> args) {
+  
 
 // write a program to remove vowels in words
 
@@ -13,3 +15,5 @@
     }
   }
   print(nov);
+
+}

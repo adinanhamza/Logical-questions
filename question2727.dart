@@ -16,8 +16,8 @@ void main(List<String> args) {
 
 
   // Answer 
-  var isEmpty = function(obj) {
-  for(let x  in obj){
+  var isEmpty = (obj) {
+  for(var x  in obj){
      return false;
   }  
 return true;
