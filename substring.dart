@@ -32,14 +32,13 @@ String word = "abc";
 int substring(patterns,word){
 List lword = word.split('');
 int count = 0;
-print(lword);
-
 
 for(var i=0;i<patterns.length;i++){
 if(word.contains(patterns[i])){
 count++;
 }
 }
+return count;
 }
 
 int result =  substring(patterns,word);
