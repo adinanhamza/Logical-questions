@@ -1,5 +1,5 @@
 
-write a program to remove vowels in words
+// write a program to remove vowels in words
 
   String words = 'my name is adinan';
 
