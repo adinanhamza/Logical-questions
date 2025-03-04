@@ -1,0 +1,22 @@
+import 'dart:ffi';
+
+void main(List<String> args) {
+
+
+List arr = [1,2,3,4,5,3,2,2,2,2];
+  int num = 0;
+  int length = arr.length;
+  for (int i = 0; i < length; i++) {
+    int count =0;
+    for (int j = 0; j < length; j++) {
+      if (arr[i] == arr[j]) {
+        count++;
+      }
+    }
+    if (count >= length / 2) {
+      num = arr[i];
+    }
+  }
+
+   print(num);
+}
