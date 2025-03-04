@@ -1,7 +1,12 @@
-Given a string, capitalize the letters that occupy even indexes and odd indexes separately, and return as shown below.
+ void main(List<String> args) {
+  
 
- capitalize("abcdef") = ['AbCdEf', 'aBcDeF'].
-          (irfan) = ['IrFaN' , iRfAn]
+ // Given a string, capitalize the letters that occupy even indexes and odd indexes separately, and return as shown below.
+
+//  capitalize("abcdef") = ['AbCdEf', 'aBcDeF'].
+//           (irfan) = ['IrFaN' , iRfAn]
+
+
 
    String str = "google";
 
@@ -24,3 +29,5 @@ Given a string, capitalize the letters that occupy even indexes and odd indexes 
    List<String> result = capital(str);
 
  print(result);
+
+ }
